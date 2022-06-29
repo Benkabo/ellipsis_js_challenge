@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --Blue: #0091fe;
+  --Grey: #414141;
+  --Black: #1e1e1e;
+  --White: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+ font-family: 'Source Sans Pro', sans-serif;
+}
